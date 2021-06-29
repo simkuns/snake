@@ -7,14 +7,21 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: [
+          { loader: 'babel-loader' },
+        ],
+      },
+      {
         test: /\.scss$/,
         use: [
           { loader: MiniCssExtractPlugin.loader },
           { loader: 'css-loader' },
-          { loader: 'sass-loader' }
-        ]
-      }
-    ]
+          { loader: 'sass-loader' },
+        ],
+      },
+    ],
   },
   output: {
     filename: 'bundle.js',
