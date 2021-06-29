@@ -27,6 +27,6 @@ const palettes = [
     snake: '#4E3822',
     food: '#2F1B25'
   }
-]
+];
 
-export default palettes
+export default palettes;

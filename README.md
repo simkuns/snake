@@ -1,10 +1,7 @@
-# Play (https://bae.lv/snake/)
-
-[Play with FPS counter](https://bae.lv/snake/#stats)
+# Demo (https://gunarssimkuns.github.io/snake/)
  
 # Todo
- * Add WebRTC multiplayer capability
+ * Multiple levels
  * Add minimap
  * Add endgame screen
- * Hexagonal grid on euclidean plane
- * ~~Octagonal grid on hyperbolic plane (https://gamedev.stackexchange.com/a/68271)~~ or hexagonal Poincare disk model
+ * Hexagonal grid
