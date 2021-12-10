@@ -1,4 +1,4 @@
-# Demo (https://gunarssimkuns.github.io/snake/)
+# Demo (https://simkuns.github.io/snake/)
  
 # Todo
  * Multiple levels
